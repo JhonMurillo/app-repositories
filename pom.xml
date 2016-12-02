@@ -13,7 +13,7 @@
         <module>cygnus-model</module>
         <module>deneb</module>
         <module>sadr</module>
-        <module>../../../project</module>
+        <module>project</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
