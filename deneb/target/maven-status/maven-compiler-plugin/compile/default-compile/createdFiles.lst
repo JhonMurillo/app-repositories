@@ -1,0 +1,5 @@
+com\atsistemas\cygnus\services\deneb\DenebController.class
+com\atsistemas\cygnus\services\deneb\config\SwaggerConfig.class
+com\atsistemas\cygnus\services\deneb\config\DenebConfig.class
+com\atsistemas\cygnus\services\deneb\service\SadrClient.class
+com\atsistemas\cygnus\services\deneb\Application.class

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: deneb-service
+  cloud:
+    config:
+      failFast: true
+      uri: http://config-server:8888
+      
+  profiles:
+   active: native
+      

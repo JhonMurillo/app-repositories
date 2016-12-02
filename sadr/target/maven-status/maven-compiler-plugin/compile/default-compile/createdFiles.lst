@@ -1,0 +1,3 @@
+com\atsistemas\cygnus\services\sadr\SadrController.class
+com\atsistemas\cygnus\services\sadr\Application.class
+com\atsistemas\cygnus\services\sadr\config\SwaggerConfig.class
