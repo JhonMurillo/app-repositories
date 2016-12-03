@@ -13,6 +13,7 @@
         <module>eureka-server</module>
         <module>project</module>
         <module>sadr</module>
+        <module>app-services</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

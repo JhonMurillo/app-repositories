@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.atsistemas.cygnus.services.sadr.ApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.836 sec - in com.atsistemas.cygnus.services.sadr.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.143 sec <<< FAILURE! - in com.atsistemas.cygnus.services.sadr.ApplicationTests
+contextLoads(com.atsistemas.cygnus.services.sadr.ApplicationTests)  Time elapsed: 0.041 sec  <<< ERROR!
+java.lang.ExceptionInInitializerError: null
+	at com.atsistemas.cygnus.services.sadr.ApplicationTests.<clinit>(ApplicationTests.java:13)
+
