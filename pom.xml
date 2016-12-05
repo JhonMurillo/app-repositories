@@ -10,7 +10,7 @@
         <module>cygnus-model</module>
         <module>deneb</module>
         <module>eureka-server</module>
-        <module>project</module>
+        <!--<module>project</module>-->
         <module>sadr</module>
         <module>app-services</module>
         <module>adminServer</module>

@@ -1,4 +1,3 @@
-
 package com.sincapp.web;
 
 import com.sincapp.domain.City;
@@ -16,17 +15,33 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Produces(APPLICATION_JSON)
 @Consumes(APPLICATION_JSON)
-@RequestMapping("/City")
+@RequestMapping(value = "/City")
 @Api(value = "Users microservice", description = "This API has a CRUD for users")
 public class SampleController {
 
-	@Autowired
-	private CityService cityService;
+    @Autowired
+    private CityService cityService;
 
-        @RequestMapping(value = "all",method = RequestMethod.GET)
-        @ApiOperation(value = "Find an city", notes = "Return a user by Id" )
-	public City helloWorld() {
-		return cityService.getCity("Cartagena", "Colombia");
-	}
+    @RequestMapping(method = RequestMethod.GET)
+    @ApiOperation(value = "Find an city", notes = "Return a user by Id")
+    public City getCity() {
+        return cityService.getCity("Cartagena", "Colombia");
+    }
+
+    @RequestMapping(value = "id", method = RequestMethod.GET)
+    @ApiOperation(value = "Find an city", notes = "Return a user by Id")
+    public City get() {
+        return cityService.getCity("Cartagena", "Colombia");
+    }
+    
+//    @RequestMapping(method = RequestMethod.POST)
+//    @ResponseStatus(HttpStatus.CREATED)
+//    public ResponseUtil registrarGrupo(@RequestBody @Valid GrupoDTO grupoDTO) {
+//        return grupoServiceFacade.registrarGrupo(grupoDTO);
+//    }
+//    public ResponseUtil actualizarGrupo(GrupoDTO grupoDTO) {
+//        ObjectMapper objectMapper = ObjectMapperUtil.getInstanceObjectMapper();
+//        return grupoService.actualizarGrupo(objectMapper.convertValue(grupoDTO, Grupo.class));
+//    }
 
 }

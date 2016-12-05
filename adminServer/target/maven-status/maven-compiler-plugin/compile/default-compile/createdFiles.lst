@@ -1,1 +1,3 @@
+com\app\admin\SimpleCORSFilter.class
 com\app\admin\AdminServerGateway.class
+com\app\admin\PreFilter.class

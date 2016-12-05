@@ -2,3 +2,6 @@
 /app-services - copia/target/
 /admin-gateway/target/
 /admin-gateway_old/target/
+/eureka-server/target/
+/configserver/target/
+/adminServer/target/
