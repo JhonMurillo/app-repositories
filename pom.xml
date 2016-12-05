@@ -6,7 +6,6 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>adminServer</module>
         <module>configserver</module>
         <module>cygnus-model</module>
         <module>deneb</module>
@@ -14,6 +13,7 @@
         <module>project</module>
         <module>sadr</module>
         <module>app-services</module>
+        <module>adminServer</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
