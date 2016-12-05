@@ -12,7 +12,6 @@
         <module>eureka-server</module>
         <!--<module>project</module>-->
         <module>sadr</module>
-        <module>app-services</module>
         <module>adminServer</module>
     </modules>
     <properties>

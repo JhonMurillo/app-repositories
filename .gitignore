@@ -5,3 +5,5 @@
 /eureka-server/target/
 /configserver/target/
 /adminServer/target/
+/notification-service/target/
+/project-services/target/
